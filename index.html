@@ -12,14 +12,15 @@
       <h1 id="title">Microverse Peer Coding</h1>
     <p id="description" >A peer coding exercise</p>
     <form id="survey-form" action="#">
-      <label for="name">Full Name</label>
-      <input type="text" id="name" name="name">
+      <label id="name-label">Full Name</label>
+      <input type="text" id="name" name="name"  placeholder="Example name">
 
-      <label for="email">Email</label>
-      <input type="email" id="email" name="email">
+      <label id="email-label">Email</label>
+      <input type="email" id="email" name="email" placeholder="example@something.com" >
 
-      <label for="number">Number</label>
-      <input type="number" id="number" name="number">
+      <label id="number-label">Number</label>
+      <input type="number" id="number" name="number"  min = "10"   max = "20" placeholder="1234567890">
+       <dropdown id="dropdown"></dropdown>
     </form>
    
     <!--
