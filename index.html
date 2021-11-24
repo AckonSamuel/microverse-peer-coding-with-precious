@@ -16,10 +16,10 @@
       and increased quality health delivery</p>
     <form id="survey-form" action="testForm">
       <label id="name-label">Full Name</label>
-      <input type="text" id="name" name="name"  placeholder="Example name"> <br>
+      <input type="text" id="name" name="name" required placeholder="Example name"> <br>
 
       <label id="email-label">Email</label>
-      <input type="email" id="email" name="email" placeholder="example@something.com" > <br>
+      <input type="email" id="email" name="email" required placeholder="example@something.com" > <br>
 
       <label id="number-label">Number</label>
       <input type="number" id="number" name="number"  min = "0"   max = "20" placeholder="1234567890"> <br>
@@ -50,9 +50,9 @@
       <input type="checkbox" id="check3" name="check3" value="check box 3">
       <label for="check3">Check box 3</label> <br> <br>
       <textarea name="comments" placeholder="add your comment here"></textarea>
-    </form>
-    <button type="submit" form="testForm" value="Submit">Submit</button>
    
+    <button type="submit" form="testForm" id="submit" value="Submit">Submit</button>
+  </form>
     <!--
 
     Hello Camper!
