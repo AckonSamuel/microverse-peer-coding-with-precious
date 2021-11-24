@@ -9,19 +9,46 @@
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     
-      <h1 id="title">Microverse Peer Coding</h1>
+      <h1 id="title">Medical survey forms</h1>
     <p id="description" >A peer coding exercise</p>
-    <form id="survey-form" action="#">
+    <form id="survey-form" action="testForm">
       <label id="name-label">Full Name</label>
-      <input type="text" id="name" name="name"  placeholder="Example name">
+      <input type="text" id="name" name="name"  placeholder="Example name"> <br>
 
       <label id="email-label">Email</label>
-      <input type="email" id="email" name="email" placeholder="example@something.com" >
+      <input type="email" id="email" name="email" placeholder="example@something.com" > <br>
 
       <label id="number-label">Number</label>
-      <input type="number" id="number" name="number"  min = "0"   max = "20" placeholder="1234567890">
-       <select id="dropdown">
+      <input type="number" id="number" name="number"  min = "0"   max = "20" placeholder="1234567890"> <br>
+      <select id="dropdown">
+        <option value="1">dropdown</option>
+        <option value="1">2</option>
+        <option value="1">3</option>
+      </select>
+        <p>Radio Buttons:</p>
+      <input type="radio" id="radio1" name="radioButtons" value="radio1">  
+      <label for="radio1">Radio Button 1</label> <br>
+      <input type="radio" id="radio2" name="radioButtons" value="radio2">
+      <label for="radio2">Radio Button 2</label> <br>
+      <input type="radio" id="radio3" name="radioButtons" value="radio3">
+      <label for="radio3">Radio Button 3</label> <br> <br>
+
+      <input type="radio" id="radio4" name="2ndradioButtons" value="radio4">
+      <label for="radio4">group 2 button 1</label> <br>
+      <input type="radio" id="radio5" name="2ndradioButtons" value="radio5">
+      <label for="radio5">group 2 button 2</label> <br>
+      <input type="radio" id="radio6" name="2ndradioButtons" value="radio6">
+      <label for="radio6">group 2 button 3</label> <br>
+      <p>Check Boxes</p>
+      <input type="checkbox" id="check1" name="check1" value="check box 1">
+      <label for="check1">Check box 1</label> <br>
+      <input type="checkbox" id="check2" name="check2" value="check box 2">
+      <label for="check2">Check box 2</label> <br>
+      <input type="checkbox" id="check3" name="check3" value="check box 3">
+      <label for="check3">Check box 3</label> <br> <br>
+      <textarea name="comments" placeholder="add your comment here"></textarea>
     </form>
+    <button type="submit" form="testForm" value="Submit">Submit</button>
    
     <!--
 
